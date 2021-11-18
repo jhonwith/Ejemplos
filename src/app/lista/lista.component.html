@@ -1,0 +1,12 @@
+<!-- <p>lista works!</p>
+================================ -->
+<!-- {{entradaTarea | json}} -->
+<div class="caja2" [ngStyle]="{'position': 'static','top' : '200px', 'bottom':'0px','right': '0', 'left': '350px',
+'padding': '30px', 'width': '290px','height': '280px', background: 'orange','float': 'left','margin-left': '50px',
+'margin-top': '150px','font-size': '400'}">
+    <ul *ngFor="let tarea of  entradaTarea">
+        <li ngClass="titulo">TITULO: {{tarea.titulo}}</li>
+        <li [ngClass]="variable">DESCRIPCION: {{tarea.descripcion}}</li>
+        *************************
+    </ul>
+</div>

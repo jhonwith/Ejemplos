@@ -1,0 +1,9 @@
+<!-- <calculadora></calculadora> -->
+<!-- <mensaje [titulo]="titulos[0]" subtitulo="subtitulo de mensaje 1" (pulsarMensaje)="mensajeAPP($event)"></mensaje>
+*****************************
+<mensaje [titulo]="titulos[1]"  (pulsarMensaje)="mensajeAPP($event)"></mensaje>
+*****************************
+<mensaje [titulo]="titulos[2]" (pulsarMensaje)="mensajeAPP($event)"></mensaje>
+***************************** -->
+<app-formulario (tareadaCreada)="enviarTareaCreada($event)"></app-formulario>
+<app-lista [entradaTarea]="listaTareas"></app-lista>

@@ -1,0 +1,25 @@
+<div class="calculadora">
+    <div class ="resultado">
+        {{resultado}}
+    </div>
+    <div class="botones numeros">
+        <button (click)="enviarNumero($event)">1</button>
+        <button (click)="enviarNumero($event)">2</button>
+        <button (click)="enviarNumero($event)">3</button>
+        <button (click)="enviarNumero($event)">4</button>
+        <button (click)="enviarNumero($event)">5</button>
+        <button (click)="enviarNumero($event)">6</button>
+        <button (click)="enviarNumero($event)">7</button>
+        <button (click)="enviarNumero($event)">8</button>
+        <button (click)="enviarNumero($event)">9</button>
+        <button (click)="enviarNumero($event)">0</button>
+    </div>
+    <div class="botones operaciones">
+        <button (click)="enviarNumero($event)">+</button>
+        <button (click)="enviarNumero($event)">-</button>
+        <button (click)="enviarNumero($event)">*</button>
+        <button (click)="enviarNumero($event)">/</button>
+        <!-- = -->
+        <button (click)="enviarResultado()">=</button>
+    </div>
+</div>

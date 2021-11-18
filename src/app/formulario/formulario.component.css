@@ -1,0 +1,36 @@
+/* .contenido{
+  margin: 150px;
+  border-style: solid;
+  height: 500px;
+  width: 900px;
+}*/
+.caja1{
+  /*
+  padding: 70px;
+  width: 200px;
+  height: 200px; */
+  /* background: orange; */
+  /* font-size: 20px; */
+  /* float: left;
+  margin-left: 300px;
+  margin-top: 150px; */
+}
+.caja1 label{
+  margin-left: 10px;
+  color:black;
+}
+.caja1 input{
+  /*margin-top: 25px; */
+  margin-top: 15px;
+  /*margin-left: 30px; */
+  margin-left: 10px;
+  max-width: 200px;
+  font-weight: bolder;
+}
+.caja1 button{
+  padding: 3px;
+  margin-left: 50px;
+  background-color: green;
+  width: 100px;
+  font-weight: 800;
+}

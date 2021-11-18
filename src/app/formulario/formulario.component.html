@@ -1,0 +1,17 @@
+
+  <div class="caja1" [ngStyle]="{background: 'orange', padding: '70px',width: '200px',
+  height: '200px', 'font-size': '20px', 'float' : 'left','margin-left': '300px','margin-top': '150px'}">
+    <label>Titulo</label>
+    <br>
+
+    <!-- <input type="text" [(ngModel)]="nombreChanges"/> -->
+    <!-- {{nombreChanges}} -->
+    <input type="text" [(ngModel)]="objetoTarea.titulo"/>
+    <br><br>
+    <label >Descripcion</label>
+    <br>
+    <input type="text" [(ngModel)]="objetoTarea.descripcion"/>
+    <br><br>
+    <button (click)="enviar()"> Enviar</button>
+  </div>
+<!-- {{objetoTarea | json}} -->
